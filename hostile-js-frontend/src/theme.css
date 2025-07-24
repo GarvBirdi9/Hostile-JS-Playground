@@ -1,0 +1,377 @@
+/* Light Theme Styles */
+.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f4f8;
+  --bg-tertiary: #e1e8ed;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --border-color: #e2e8f0;
+  --accent-color: #3182ce;
+  --card-bg: #f7fafc;
+  --card-border: #e2e8f0;
+}
+
+.light-theme .bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #ffffff, #f0f4f8) !important;
+}
+
+.light-theme .bg-slate-800 {
+  background-color: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+}
+
+.light-theme .bg-slate-800\/50 {
+  background-color: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+}
+
+.light-theme .bg-slate-700 {
+  background-color: #edf2f7 !important;
+}
+
+.light-theme .bg-slate-700\/50 {
+  background-color: #edf2f7 !important;
+}
+
+.light-theme .bg-slate-900 {
+  background-color: #f7fafc !important;
+}
+
+.light-theme .text-white {
+  color: #1e293b !important;
+}
+
+.light-theme .text-slate-300 {
+  color: #475569 !important;
+}
+
+.light-theme .text-slate-400 {
+  color: #64748b !important;
+}
+
+.light-theme .text-slate-500 {
+  color: #64748b !important;
+}
+
+.light-theme .border-slate-700 {
+  border-color: #e2e8f0 !important;
+}
+
+.light-theme .hover\:bg-slate-700\/50:hover {
+  background-color: #f1f5f9 !important;
+}
+
+.light-theme .hover\:text-white:hover {
+  color: #1e293b !important;
+}
+
+/* Dashboard specific styles */
+.light-theme [class*="bg-slate"] {
+  background-color: var(--card-bg) !important;
+  border-color: var(--card-border) !important;
+}
+
+/* Summary cards in dashboard */
+.light-theme .dashboard-card,
+.light-theme .summary-card {
+  background-color: #f0f4f8 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+/* Tab navigation */
+.light-theme .tab-active {
+  background-color: #e6f0f9 !important;
+  color: #3182ce !important;
+}
+
+/* Keep accent colors the same */
+.light-theme .text-blue-400,
+.light-theme .text-green-400,
+.light-theme .text-yellow-400,
+.light-theme .text-red-400,
+.light-theme .text-purple-400 {
+  /* Keep original colors for better contrast */
+}
+
+/* Button styles */
+.light-theme .bg-blue-600 {
+  background-color: #3182ce !important;
+}
+
+.light-theme .hover\:bg-blue-700:hover {
+  background-color: #2c5282 !important;
+}
+
+.light-theme .bg-red-600 {
+  background-color: #e53e3e !important;
+}
+
+.light-theme .hover\:bg-red-700:hover {
+  background-color: #c53030 !important;
+}
+
+/* Comprehensive grey color replacements */
+.light-theme .bg-gray-100,
+.light-theme .bg-gray-200,
+.light-theme .bg-gray-300,
+.light-theme .bg-slate-100,
+.light-theme .bg-slate-200,
+.light-theme .bg-slate-300 {
+  background-color: #f0f4f8 !important;
+}
+
+.light-theme .bg-gray-400,
+.light-theme .bg-gray-500,
+.light-theme .bg-slate-400,
+.light-theme .bg-slate-500 {
+  background-color: #e2e8f0 !important;
+}
+
+.light-theme .bg-gray-600,
+.light-theme .bg-gray-700,
+.light-theme .bg-slate-600 {
+  background-color: #cbd5e0 !important;
+}
+
+/* Text colors */
+.light-theme .text-gray-400,
+.light-theme .text-gray-500,
+.light-theme .text-gray-600 {
+  color: #718096 !important;
+}
+
+/* Border colors */
+.light-theme .border-gray-200,
+.light-theme .border-gray-300,
+.light-theme .border-slate-200,
+.light-theme .border-slate-300 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Specific dashboard elements */
+.light-theme .dashboard-summary-card {
+  background: linear-gradient(135deg, #f0f4f8 0%, #e6f0f9 100%) !important;
+  border: 1px solid #d6e3f0 !important;
+}
+
+/* Risk score cards */
+.light-theme .risk-card {
+  background-color: #f0f4f8 !important;
+  border: 1px solid #d6e3f0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Severity-based colored backgrounds for light theme */
+.light-theme .bg-red-500\/10 {
+  background-color: rgba(239, 68, 68, 0.15) !important;
+}
+
+.light-theme .bg-orange-500\/10 {
+  background-color: rgba(249, 115, 22, 0.15) !important;
+}
+
+.light-theme .bg-yellow-500\/10 {
+  background-color: rgba(234, 179, 8, 0.15) !important;
+}
+
+.light-theme .bg-blue-500\/10 {
+  background-color: rgba(59, 130, 246, 0.15) !important;
+}
+
+.light-theme .bg-green-500\/10 {
+  background-color: rgba(34, 197, 94, 0.15) !important;
+}
+
+/* Border colors for severity cards */
+.light-theme .border-red-500\/30 {
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+
+.light-theme .border-orange-500\/30 {
+  border-color: rgba(249, 115, 22, 0.4) !important;
+}
+
+.light-theme .border-yellow-500\/30 {
+  border-color: rgba(234, 179, 8, 0.4) !important;
+}
+
+.light-theme .border-blue-500\/30 {
+  border-color: rgba(59, 130, 246, 0.4) !important;
+}
+
+.light-theme .border-green-500\/30 {
+  border-color: rgba(34, 197, 94, 0.4) !important;
+}
+
+/* Light theme design enhancements */
+.light-theme .settings-dropdown {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(148, 163, 184, 0.3) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.light-theme .settings-dropdown-item:hover {
+  background: rgba(59, 130, 246, 0.08) !important;
+}
+
+.light-theme .tab-button:hover {
+  background: rgba(59, 130, 246, 0.08) !important;
+}
+
+.light-theme .tab-button.active {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.08),
+    rgba(139, 92, 246, 0.08)
+  ) !important;
+}
+
+.light-theme .risk-card-enhanced::before {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.03),
+    rgba(139, 92, 246, 0.03)
+  ) !important;
+}
+
+.light-theme .input-enhanced {
+  background: rgba(148, 163, 184, 0.05) !important;
+  border-color: rgba(148, 163, 184, 0.2) !important;
+}
+
+.light-theme .input-enhanced:focus {
+  background: rgba(59, 130, 246, 0.03) !important;
+  border-color: #3b82f6 !important;
+}
+
+.light-theme .custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(148, 163, 184, 0.05) !important;
+}
+
+.light-theme .loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    #f8fafc 25%,
+    #e2e8f0 50%,
+    #f8fafc 75%
+  ) !important;
+}
+
+/* Light theme hover effects with shadows */
+.light-theme .interactive-element:hover {
+  background: rgba(59, 130, 246, 0.05) !important;
+  border-color: rgba(59, 130, 246, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(59, 130, 246, 0.03) !important;
+}
+
+.light-theme .list-item-hover:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(59, 130, 246, 0.03),
+    transparent
+  ) !important;
+  border-left-color: rgba(59, 130, 246, 0.4) !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08), 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+}
+
+.light-theme .menu-item-hover:hover {
+  background: rgba(59, 130, 246, 0.05) !important;
+  color: #1e293b !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .filter-button:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.08),
+    rgba(139, 92, 246, 0.03)
+  ) !important;
+  border-color: rgba(59, 130, 246, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .filter-button.active {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.15),
+    rgba(139, 92, 246, 0.08)
+  ) !important;
+  border-color: rgba(59, 130, 246, 0.4) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15), 0 2px 4px rgba(0, 0, 0, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.light-theme .hover-bg-primary:hover {
+  background: rgba(59, 130, 246, 0.08) !important;
+  border-color: rgba(59, 130, 246, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .hover-bg-secondary:hover {
+  background: rgba(139, 92, 246, 0.08) !important;
+  border-color: rgba(139, 92, 246, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .hover-bg-success:hover {
+  background: rgba(34, 197, 94, 0.08) !important;
+  border-color: rgba(34, 197, 94, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .hover-bg-warning:hover {
+  background: rgba(234, 179, 8, 0.08) !important;
+  border-color: rgba(234, 179, 8, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(234, 179, 8, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .hover-bg-danger:hover {
+  background: rgba(239, 68, 68, 0.08) !important;
+  border-color: rgba(239, 68, 68, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.light-theme .hover-bg-info:hover {
+  background: rgba(6, 182, 212, 0.08) !important;
+  border-color: rgba(6, 182, 212, 0.25) !important;
+  box-shadow: 0 4px 12px rgba(6, 182, 212, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Light theme component-specific styling */
+.light-theme .bg-slate-800 {
+  background: rgba(248, 250, 252, 0.95) !important;
+  border-color: rgba(148, 163, 184, 0.4) !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08),
+    0 10px 20px -5px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(148, 163, 184, 0.1) !important;
+}
+
+.light-theme .border-slate-600 {
+  border-color: rgba(148, 163, 184, 0.4) !important;
+}
+
+.light-theme .shadow-slate-900\/50 {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.08),
+    0 10px 20px -5px rgba(0, 0, 0, 0.04) !important;
+}
+
+.light-theme .bg-slate-800\/30 {
+  background: rgba(248, 250, 252, 0.8) !important;
+}
+
+.light-theme .shadow-inner {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03),
+    inset 0 1px 2px rgba(0, 0, 0, 0.02) !important;
+}
+
+.light-theme .border-slate-600 {
+  border-color: rgba(148, 163, 184, 0.4) !important;
+}
+
+/* Enhanced component shadows for light theme */
+.light-theme .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1),
+    0 10px 20px -5px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(148, 163, 184, 0.15) !important;
+}
